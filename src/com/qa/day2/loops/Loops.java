@@ -28,6 +28,7 @@ public class Loops {
 		do {
 			System.out.println("Hello" + count);
 			count++;
+			System.out.println("Hello" + count);
 		} while(count < 21);
 			
 	}

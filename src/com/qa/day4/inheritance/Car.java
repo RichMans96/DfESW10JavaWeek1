@@ -38,12 +38,12 @@ public class Car extends Vehicle {
 		this.engineSize = engineSize;
 	}
 
+	// use to tell the compilier that we're changing an inherited method
 	@Override
 	public String toString() {
 		return "Car [make=" + make + ", model=" + model + ", engineSize=" + engineSize + ", getNumOfWheels()="
 				+ super.getNumOfWheels() + ", getColour()=" + super.getColour() + "]";
 	}
-	
 	
 	
 	
